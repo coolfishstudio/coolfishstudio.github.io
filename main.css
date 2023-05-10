@@ -1,0 +1,103 @@
+.wallpaper-O7bh8n {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: 0;
+}
+.wallpaper-O7bh8n:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA+hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoxNDM4RkVGMEE1QjYxMUU3OEJDRUVFNjY1MTE1MkVDRSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoxNDM4RkVFRkE1QjYxMUU3OEJDRUVFNjY1MTE1MkVDRSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKE1hY2ludG9zaCkiIHhtcDpDcmVhdGVEYXRlPSIyMDE3LTA5LTI0VDIzOjEwOjI4KzA4OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAxNy0xMC0xMFQwODowNToxMCswODowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAxNy0xMC0xMFQwODowNToxMCswODowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDowM0YxRjkxQTVFMjAxMUU1OEIyRkI3NzhGRUQ3QjhDRiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDowM0YxRjkxQjVFMjAxMUU1OEIyRkI3NzhGRUQ3QjhDRiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PnDUdDAAAAAVSURBVHjaYmBgYJBiwAOkCHMAAgwADXgAaYliMEgAAAAASUVORK5CYII=);
+}
+
+.searchWrap-JTeoJG {
+  width: 80%;
+  max-width: 600px;
+}
+.searchWrap-JTeoJG .ant-input-group {
+  box-shadow: 0 4px 16px -4px #000000;
+  border-radius: 8px;
+}
+.searchWrap-JTeoJG .ant-input-group .ant-input-group-addon {
+  border: none;
+  background-color: #fff;
+}
+.searchWrap-JTeoJG .ant-input-group .ant-input-borderless {
+  background-color: #fff;
+}
+
+.time-oAoLjg {
+  font-size: 72px;
+  color: #fff;
+  margin-bottom: 80px;
+  margin-top: -160px;
+  text-shadow: 0px 0px 16px #000000;
+}
+.time-oAoLjg > span {
+  width: 40px;
+  display: inline-block;
+}
+
+.main-TIEcrk {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.main-TIEcrk > section {
+  text-align: center;
+  color: var(--title-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+.main-TIEcrk > section > div {
+  width: 100%;
+}
+
+:root {
+  /* 标题 */
+  --title-color: rgba(0, 0, 0, 0.85);
+  /* 正文 */
+  --text-color: rgba(0, 0, 0, 0.65);
+  /* 次要文字 */
+  --sub-text-color: rgba(0, 0, 0, 0.45);
+  /* 不可点文字 */
+  --disable-text-color: rgba(0, 0, 0, 0.25);
+  /* 线的颜色 */
+  --line-color: rgba(0, 0, 0, 0.1);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  overflow: hidden;
+}
+body {
+  color: rgb(var(--foreground-rgb));
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
