@@ -96,6 +96,25 @@
   transform: translateY(10px);
 }
 
+.apps-g1ddtX {
+  max-width: 1146px;
+  margin: 0 auto;
+  padding: 16px 46px;
+  height: 100%;
+}
+.apps-g1ddtX .appItem-rgIAiJ {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.apps-g1ddtX .appItem-rgIAiJ:hover {
+  opacity: 0.85;
+}
+
 .main-TIEcrk {
   display: flex;
   height: 100vh;
