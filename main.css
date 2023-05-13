@@ -110,9 +110,12 @@
   background-color: rgba(0, 0, 0, 0.8);
   cursor: pointer;
   transition: all 0.3s;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.15);
+  transform: translateY(0);
+  border-radius: 20px;
 }
 .apps-g1ddtX .appItem-rgIAiJ:hover {
-  opacity: 0.85;
+  transform: translateY(-4px);
 }
 
 .main-TIEcrk {
