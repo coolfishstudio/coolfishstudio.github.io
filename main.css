@@ -300,6 +300,7 @@
   position: fixed;
   top: 0;
   bottom: 0;
+  z-index: 5;
   right: 12px;
   display: flex;
   align-items: center;
