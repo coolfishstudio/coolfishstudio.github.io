@@ -76,7 +76,7 @@
 .searchWrap-EWal6v .ant-input-group .ant-select-dropdown {
   -webkit-backdrop-filter: blur(40px);
           backdrop-filter: blur(40px);
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.9);
   width: 100%;
 }
 .searchWrap-EWal6v .ant-input-group .ant-select-dropdown .rc-virtual-list-holder-inner {
@@ -99,11 +99,11 @@
   background-color: transparent;
 }
 .searchWrap-EWal6v .ant-input-group .ant-select-dropdown .rc-virtual-list-holder-inner .ant-select-item:hover {
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.25);
 }
 .searchWrap-EWal6v .ant-input-group .ant-select-dropdown .rc-virtual-list-holder-inner .ant-select-item:hover .search-type-icon > span {
   color: #fff;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
+  text-shadow: 0 0px 4px rgba(255, 255, 255, 0.15);
 }
 .searchWrap-EWal6v .ant-input-group .ant-select-dropdown .rc-virtual-list-holder-inner .ant-select-item .search-type-icon {
   padding: 8px 4px;
@@ -130,7 +130,8 @@
   display: block;
 }
 .searchWrap-EWal6v .searchTypeIcon-xChknS > span {
-  color: #8e8e8e;
+  color: #616161;
+  text-shadow: 0 0px 4px rgba(0, 0, 0, 0.15);
   text-align: center;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -384,10 +385,26 @@
   width: calc(var(--app-size) * 4 + var(--app-gap-y) * 3);
   height: calc(var(--app-size) * 2 + var(--app-gap-x));
 }
+.appsWrap-EvxTGT .appsPanel-ER4mIK .appsSwiper-m1K5dy .appSwiper-APCEg1 .appPanel-gtzZc9 .appGrid-QLydn3 .appItem-rgIAiJ .appAvatar-HY1k60 {
+  overflow: hidden;
+  border-radius: 14px;
+  position: relative;
+}
+.appsWrap-EvxTGT .appsPanel-ER4mIK .appsSwiper-m1K5dy .appSwiper-APCEg1 .appPanel-gtzZc9 .appGrid-QLydn3 .appItem-rgIAiJ .appAvatar-HY1k60 .appAvatarTag-iPTgeO {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 500;
+  padding: 0px 4px;
+  white-space: nowrap;
+}
 .appsWrap-EvxTGT .appsPanel-ER4mIK .appsSwiper-m1K5dy .appSwiper-APCEg1 .appPanel-gtzZc9 .appGrid-QLydn3 .appItem-rgIAiJ .appIcon-wjQPbm {
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
+  width: 64px;
+  height: 64px;
+  border-radius: 14px;
   line-height: var(--app-size);
   text-align: center;
   font-size: 16px;
@@ -410,6 +427,7 @@
   opacity: 0;
   transition: all 0.3s;
   cursor: pointer;
+  margin: 0 -8px;
 }
 
 .main-TIEcrk {
