@@ -416,6 +416,7 @@
   padding: 0;
   border-radius: 12px;
   height: 640px;
+  overflow: hidden;
 }
 .popup-model-iVjHAI .mytab-modal-content .mytab-modal-body {
   height: 100%;
@@ -423,6 +424,8 @@
 .popup-model-iVjHAI .dialogPanel-SV14T1 {
   height: 100%;
   width: 100%;
+  overflow: auto;
+  position: relative;
 }
 .popup-model-iVjHAI .dialogPanel-SV14T1 .mytab-spin-nested-loading {
   height: 100%;
@@ -448,7 +451,7 @@
   top: 8px;
   right: 8px;
   display: flex;
-  z-index: 1;
+  z-index: 1000;
 }
 .popup-model-iVjHAI .dialogTool-E6RVzO .btn-hPRPUt {
   display: flex;
@@ -471,6 +474,9 @@
 }
 .popup-model-iVjHAI .dialogTool-E6RVzO .btn-hPRPUt.red-IQfI3O {
   background-color: #ff7330;
+}
+.popup-model-iVjHAI .dialogTool-E6RVzO .btn-hPRPUt.blue-dNe2nT {
+  background-color: #69b1ff;
 }
 .popup-model-iVjHAI .dialogTool-E6RVzO .btn-hPRPUt > i {
   opacity: 0;
@@ -560,6 +566,28 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.iconLink-myuJj_ {
+  position: relative;
+}
+.iconLink-myuJj_::before,
+.iconLink-myuJj_::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  transform: rotate(-15deg);
+}
+.iconLink-myuJj_::before {
+  left: -5px;
+  top: -2px;
+}
+.iconLink-myuJj_::after {
+  left: -2px;
+  top: -5px;
 }
 
 .container-AgxMVd {
@@ -1019,6 +1047,148 @@
   font-size: 48px;
 }
 .tc-theme-color-u4o6tN {
+  color: var(--app-theme-color);
+}
+
+.container-KllLHV {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  cursor: pointer;
+  --app-theme-color: #4a7aff;
+}
+.container-KllLHV .mainPanel-ADGL82 {
+  background-color: #fff;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-flow: wrap;
+  flex-shrink: 0;
+  display: flex;
+}
+.container-KllLHV .mainPanel-ADGL82 .miniHeader-Zpsdg_ {
+  width: 100%;
+  text-align: center;
+  line-height: 28px;
+  background-color: var(--app-theme-color);
+  color: #fff;
+}
+.container-KllLHV .mainPanel-ADGL82.needSubPanel-fT1KJx {
+  align-content: start;
+  text-align: left;
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: #f8f8f8;
+}
+.container-KllLHV .subPanel-BkXANq {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex-flow: wrap;
+  width: 100%;
+  height: 100%;
+}
+.todoPanel-YjQUMN {
+  height: 100%;
+  width: 100%;
+  padding: 4%;
+}
+.todoPanel-YjQUMN .todoTitle-fFKZl8 {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+.todoPanel-YjQUMN .todoList-dyxnvF {
+  display: flex;
+  flex-direction: column;
+}
+.todoPanel-YjQUMN .todoList-dyxnvF .todoItem-a7o9Qd {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0px 0 8px 4px;
+  font-size: 12px;
+}
+.todoPanel-YjQUMN .todoList-dyxnvF .todoItem-a7o9Qd .tag-kjrPrA {
+  width: 4px;
+  height: 10px;
+  border-radius: 2px;
+  margin-right: 8px;
+  flex-shrink: 0;
+  background-color: var(--app-theme-color);
+}
+.iconWrap-lE7eob {
+  display: flex;
+  width: 100%;
+  font-size: 36px;
+}
+.iconWrap-lE7eob span {
+  padding: 4px;
+  background: var(--app-theme-color);
+  border-radius: 4px;
+  color: #fff;
+}
+.flex-Evy66a {
+  display: flex;
+}
+.fw-nowrap-hs6n4J {
+  flex-wrap: nowrap;
+}
+.row-YNyIH1 {
+  flex-direction: row !important;
+}
+.column-yug2RY {
+  flex-direction: column !important;
+}
+.flex-grow-LT_byi {
+  flex-grow: 1;
+}
+.jc-center-MbRdwR {
+  justify-content: center;
+}
+.jc-evenly-oN7cXt {
+  justify-content: space-evenly;
+}
+.jc-between-YNcJzL {
+  justify-content: space-between;
+}
+.jc-start-QABVPb {
+  justify-content: flex-start;
+}
+.jc-end-cMyLVs {
+  justify-content: flex-end;
+}
+.ai-center-uXgEG3 {
+  align-items: center;
+}
+.ai-baseline-pMdffz {
+  align-items: baseline;
+}
+.ac-start-pwig3J {
+  align-content: flex-start;
+}
+.f12-y0YY9R {
+  font-size: 12px;
+}
+.f14-ay3YuS {
+  font-size: 14px;
+}
+.f16-TLcTMb {
+  font-size: 16px;
+}
+.f24-y1_c5g {
+  font-size: 24px;
+}
+.f36-Ybczl2 {
+  font-size: 36px;
+}
+.w-full-WK1IdA {
+  width: 100%;
+}
+.f48-wi1U0F {
+  font-size: 48px;
+}
+.tc-theme-color-D0VxLm {
   color: var(--app-theme-color);
 }
 
