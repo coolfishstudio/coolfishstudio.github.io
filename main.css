@@ -368,6 +368,20 @@
   padding-right: 8px;
   box-shadow: 0 0 #0000, 0 0 #0000, 0px 2px 12px 0px #00000026;
 }
+@media screen and (max-width: 568px) {
+  .bar-ZiS1nL {
+    width: 42px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 100% 0 0 100%;
+    -webkit-backdrop-filter: none;
+            backdrop-filter: none;
+  }
+  .bar-ZiS1nL .item-xjv9oK {
+    width: 28px;
+    height: 28px;
+    font-size: 18px;
+  }
+}
 
 .appIcon-wAdvqR {
   cursor: pointer;
@@ -401,6 +415,11 @@
   padding: 0px 4px;
   white-space: nowrap;
   line-height: initial;
+}
+@media screen and (max-width: 568px) {
+  .appIcon-wAdvqR {
+    font-size: 14px;
+  }
 }
 
 .popup-model-iVjHAI.maxWindow-X880yQ .mytab-modal {
@@ -2307,6 +2326,11 @@
   justify-content: center;
   padding: 16px 0;
 }
+@media screen and (max-width: 568px) {
+  .barWrap-WxLf2d {
+    right: -8px;
+  }
+}
 
 .main-TIEcrk {
   display: flex;
@@ -2354,6 +2378,13 @@
 @media screen and (max-width: 568px) {
   .homePage-LnX3BL .homePageHeaderWrap-Eek9Gk {
     height: 40px;
+  }
+  .homePage-LnX3BL .homePageAppGridWrap-FSgkF4 {
+    --app-wrap-x: 24px;
+    --app-size: 64px;
+    --app-gap-x: 28px;
+    --app-gap-y: 28px;
+    --app-number: 4;
   }
 }
 
