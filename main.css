@@ -434,8 +434,8 @@
 .popup-model-iVjHAI .mytab-modal-content {
   padding: 0;
   border-radius: 12px;
-  height: 640px;
   overflow: hidden;
+  background-color: transparent;
 }
 .popup-model-iVjHAI .mytab-modal-content .mytab-modal-body {
   height: 100%;
@@ -607,6 +607,16 @@
 .iconLink-myuJj_::after {
   left: -2px;
   top: -5px;
+}
+.viewResizeContainer-ZmLNOF {
+  position: relative;
+}
+.viewResizeContainer-ZmLNOF .viewResizePanel-yRG7xE {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .container-utO3ft {
