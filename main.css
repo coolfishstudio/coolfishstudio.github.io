@@ -33,12 +33,15 @@
   padding: 0 26px;
   position: relative;
 }
+.searchWrap-LIAh0R.isMinimalism-UKYxPV {
+  max-width: 800px;
+}
 .searchWrap-LIAh0R .mytab-input-group {
   box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
   -webkit-backdrop-filter: blur(40px);
           backdrop-filter: blur(40px);
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
   transition: all 0.3s;
   height: 52px;
 }
@@ -76,7 +79,7 @@
 .searchWrap-LIAh0R .mytab-input-group .mytab-select-dropdown {
   -webkit-backdrop-filter: blur(40px);
           backdrop-filter: blur(40px);
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.6);
   width: 100%;
 }
 .searchWrap-LIAh0R .mytab-input-group .mytab-select-dropdown .rc-virtual-list-holder-inner {
@@ -166,6 +169,16 @@
 .time-vaIVwk .colon-fCUgXj + time {
   text-align: left;
 }
+.time-vaIVwk.isMinimalism-Ovknp4 {
+  font-size: 130px;
+  line-height: 100px;
+}
+.time-vaIVwk.isMinimalism-Ovknp4 time {
+  width: 156px;
+}
+.time-vaIVwk.isMinimalism-Ovknp4 .colon-fCUgXj {
+  vertical-align: calc(100px / 12);
+}
 .date-ZEajxd {
   font-size: 14px;
   line-height: 26px;
@@ -180,6 +193,11 @@
 }
 .date-ZEajxd > span {
   margin: 0 2px;
+}
+.date-ZEajxd.isMinimalism-Ovknp4 {
+  font-size: 32px;
+  line-height: 39px;
+  margin-top: 11px;
 }
 
 .tips-n7NgtH {
@@ -2380,6 +2398,8 @@
   text-align: center;
   position: relative;
   z-index: 1;
+  transition: 0.2s;
+  margin-top: 0px;
 }
 .homePage-LnX3BL .homePageAppGridWrap-FSgkF4 {
   flex: 1 1 0%;
@@ -2394,6 +2414,34 @@
   padding-top: 20px;
   height: 60px;
   line-height: 40px;
+}
+.homePage-LnX3BL .homePageTopButton-CjPCFq {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  padding: 3px;
+}
+.homePage-LnX3BL .homePageTopButton-CjPCFq .item-YxEztE {
+  cursor: pointer;
+  padding: 8px;
+  color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 28px;
+  line-height: 28px;
+  transition-duration: 0.15s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 8px;
+}
+.homePage-LnX3BL .homePageTopButton-CjPCFq .item-YxEztE:hover {
+  color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.homePage-LnX3BL.isMinimalism-IEDgKo .homePageHeaderWrap-Eek9Gk {
+  height: 18vh;
+}
+.homePage-LnX3BL.isMinimalism-IEDgKo .homePageSearchWrap-SYy1X1 {
+  margin-top: 20px;
 }
 @media screen and (max-width: 568px) {
   .homePage-LnX3BL .homePageHeaderWrap-Eek9Gk {
