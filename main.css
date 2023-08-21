@@ -160,21 +160,18 @@
 }
 .time-vaIVwk time {
   display: inline-block;
-  width: 84px;
-  text-align: right;
+  width: 42px;
+  text-align: center;
 }
 .time-vaIVwk .colon-fCUgXj {
   vertical-align: calc(70px / 12);
-}
-.time-vaIVwk .colon-fCUgXj + time {
-  text-align: left;
 }
 .time-vaIVwk.isMinimalism-Ovknp4 {
   font-size: 130px;
   line-height: 100px;
 }
 .time-vaIVwk.isMinimalism-Ovknp4 time {
-  width: 156px;
+  width: 78px;
 }
 .time-vaIVwk.isMinimalism-Ovknp4 .colon-fCUgXj {
   vertical-align: calc(100px / 12);
@@ -204,7 +201,7 @@
     font-size: 90px;
   }
   .time-vaIVwk.isMinimalism-Ovknp4 time {
-    width: 106px;
+    width: 53px;
   }
 }
 
