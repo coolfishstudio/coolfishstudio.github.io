@@ -199,6 +199,14 @@
   line-height: 39px;
   margin-top: 11px;
 }
+@media screen and (max-width: 568px) {
+  .time-vaIVwk.isMinimalism-Ovknp4 {
+    font-size: 90px;
+  }
+  .time-vaIVwk.isMinimalism-Ovknp4 time {
+    width: 106px;
+  }
+}
 
 .tips-n7NgtH {
   width: 100%;
@@ -390,7 +398,6 @@
   .bar-ZiS1nL {
     width: 42px;
     background-color: rgba(0, 0, 0, 0.75);
-    border-radius: 100% 0 0 100%;
     -webkit-backdrop-filter: none;
             backdrop-filter: none;
   }
@@ -2417,9 +2424,10 @@
 }
 .homePage-LnX3BL .homePageTopButton-CjPCFq {
   position: fixed;
-  top: 8px;
-  left: 8px;
+  top: 13px;
+  right: 13px;
   padding: 3px;
+  z-index: 5;
 }
 .homePage-LnX3BL .homePageTopButton-CjPCFq .item-YxEztE {
   cursor: pointer;
