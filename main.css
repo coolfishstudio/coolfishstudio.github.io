@@ -152,7 +152,7 @@
      -moz-user-select: none;
           user-select: none;
   font-weight: 400;
-  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
   color: #fff;
   line-height: 70px;
   display: inline-block;
@@ -181,7 +181,7 @@
   line-height: 26px;
   opacity: 0.88;
   margin-top: -3px;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
   color: #fff;
   text-align: center;
   -webkit-user-select: none;
