@@ -416,27 +416,77 @@
      -moz-user-select: none;
           user-select: none;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.2s;
 }
-.appIcon-mSE_az > img {
+.appIcon-mSE_az .icon-HoBVUO {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  left: 8px;
+  top: 16px;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid #fff;
+  font-size: 20px;
+  transition: all 0.2s;
+  background-color: #fff;
+}
+.appIcon-mSE_az .icon-HoBVUO > span {
+  display: flex;
+  text-align: center;
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  align-items: center;
+  justify-content: center;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.appIcon-mSE_az .appIconTag-J6qmWc {
-  pointer-events: auto;
+.appIcon-mSE_az .name-bz4aL3 {
+  position: relative;
+  padding-right: 8px;
+  line-height: calc(var(--app-size) - 24px);
+  font-size: 16px;
+  text-align: right;
+  color: #fff;
+}
+.appIcon-mSE_az .desc-IbVfkZ {
+  background-color: #fff;
+  opacity: 0.9;
+  color: #aaa;
+  font-size: 12px;
+  padding: 0px 8px;
+  text-align: right;
+  line-height: 24px;
+  transition: all 0.2s;
+}
+.appIcon-mSE_az .cover-dXFlbE {
+  transition: all 0.2s;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  font-size: 12px;
+  bottom: 0;
+}
+.appIcon-mSE_az.appTheme-BIv2gL .name-bz4aL3 {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.appIcon-mSE_az.appTheme-BIv2gL .icon-HoBVUO {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border: none;
+  font-size: 40px;
+}
+.appIcon-mSE_az.appTheme-BIv2gL .desc-IbVfkZ {
+  z-index: 1;
   text-align: center;
-  font-weight: 500;
-  padding: 0px 4px;
-  white-space: nowrap;
-  line-height: initial;
 }
 @media screen and (max-width: 568px) {
   .appIcon-mSE_az {
@@ -2322,7 +2372,7 @@
 
 .appWidget-xo_tpI {
   pointer-events: auto;
-  transition: all 0.3s;
+  transition: all 0.2s;
   transform: translateY(0);
 }
 .appWidget-xo_tpI.appWidget-w-1-XmwUjS {
@@ -2371,9 +2421,9 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
-  border-radius: 14px;
+  border-radius: 6px;
   position: relative;
-  transition: all 0.3s;
+  transition: all 0.2s;
 }
 .appWidget-xo_tpI .appTitle-_C47HX {
   font-size: 12px;
@@ -2382,7 +2432,7 @@
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.65);
   transform: translateY(-100%);
   opacity: 0;
-  transition: all 0.3s;
+  transition: all 0.2s;
   margin: 0 -8px;
   -webkit-user-select: none;
      -moz-user-select: none;
