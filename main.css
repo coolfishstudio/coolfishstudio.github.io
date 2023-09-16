@@ -487,6 +487,7 @@
 .appIcon-mSE_az.appTheme-BIv2gL .desc-IbVfkZ {
   z-index: 1;
   text-align: center;
+  padding: 0;
 }
 @media screen and (max-width: 568px) {
   .appIcon-mSE_az {
