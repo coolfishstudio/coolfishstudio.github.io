@@ -2582,6 +2582,33 @@
   font-size: 48px;
 }
 
+.container-ZHtQzl {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  position: relative;
+  background-color: #fff;
+}
+.container-ZHtQzl .mytab-spin-nested-loading {
+  height: 100%;
+  width: 100%;
+}
+.container-ZHtQzl .mytab-spin-nested-loading .mytab-spin {
+  max-height: initial;
+}
+.container-ZHtQzl .mytab-spin-container {
+  height: 100%;
+  width: 100%;
+}
+.container-ZHtQzl .mytab-spin-container #micro-app-container-r3f {
+  height: 100%;
+  width: 100%;
+}
+.container-ZHtQzl .mytab-spin-container #micro-app-container-r3f > div {
+  height: 100%;
+  width: 100%;
+}
+
 .barWrap-WxLf2d {
   position: fixed;
   top: 0;
