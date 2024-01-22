@@ -39,26 +39,47 @@
   cursor: pointer;
   padding: 0 4px;
   margin: 0 2px;
-  border-radius: 4px;
+  border-radius: 3px;
   height: 24px;
   display: inline-flex;
   align-items: center;
+  transition: all 0.1s ease-out;
 }
 .taskbarButton-DY0U55:hover {
-  background-color: rgba(243, 244, 246, 0.3);
+  color: var(--color-hover);
+  background-color: var(--bgColor-hover);
+}
+
+.time-B_AAff {
+  margin: 0 -2px;
+  font-size: 14px;
+}
+.time-B_AAff span {
+  margin: 0 2px;
+  display: inline-flex;
+  text-align: center;
+}
+.time-B_AAff span:last-child {
+  width: 58px;
 }
 
 .taskbar-u1I39X {
-  height: 32px;
+  --bgColor: rgba(0, 0, 0, 0.9);
+  --color: #ffffff;
+  --bgColor-hover: rgba(255, 255, 255, 0.9);
+  --color-hover: rgba(0, 0, 0, 0.9);
+  color: var(--color);
+  background-color: var(--bgColor);
+  height: 28px;
   width: 100%;
   padding: 0 8px;
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
-  color: #ffffff;
-  background-color: rgba(55, 65, 81, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px;
+  z-index: 101;
+  transition: all 0.1s ease-out;
 }
 
 .time-vaIVwk {
