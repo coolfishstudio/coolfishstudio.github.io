@@ -50,6 +50,20 @@
   background-color: var(--bgColor-hover);
 }
 
+.batteryButton-mYxOQt {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.batteryButton-mYxOQt .batteryLevel-V2eJZG {
+  position: absolute;
+  top: 50%;
+  left: 1.5px;
+  right: 3.5px;
+  margin-top: -2.5px;
+  height: 5px;
+  border-radius: 0.5px;
+}
 
 .time-B_AAff {
   margin: 0 -2px;
