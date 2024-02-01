@@ -49,20 +49,35 @@
   color: var(--color-hover);
   background-color: var(--bgColor-hover);
 }
+.dropdownContent-zQznYI {
+  background: #fff;
+  box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+}
 
 .batteryButton-mYxOQt {
   position: relative;
   display: flex;
   align-items: center;
 }
+.batteryButton-mYxOQt > svg {
+  font-size: 18px;
+  margin: -1px;
+}
 .batteryButton-mYxOQt .batteryLevel-V2eJZG {
   position: absolute;
   top: 50%;
-  left: 1.5px;
-  right: 3.5px;
+  left: 1px;
   margin-top: -2.5px;
   height: 5px;
   border-radius: 0.5px;
+}
+.batteryButton-mYxOQt .batteryCharging-cSAWq6 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -6px;
+  font-size: 10px;
+  margin-top: -5px;
 }
 
 .time-B_AAff {
