@@ -54,32 +54,27 @@
   --color: #ffffff;
   color: var(--color);
   background-color: var(--bgColor);
-  box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: rgba(26, 26, 26, 0.5) 0px 3px 10px 3px;
   border-radius: 3px;
-}
-
-.dropdownContent-Ub5u7c {
   overflow: hidden;
-  border-radius: inherit;
-  width: 180px;
 }
-.dropdownContent-Ub5u7c .eleven-os-dropdown-menu {
+.dropdownRender-yf0s5Y .eleven-os-dropdown-menu {
   padding: 0;
   background: transparent;
   border-radius: inherit;
 }
-.dropdownContent-Ub5u7c .eleven-os-dropdown-menu .eleven-os-dropdown-menu-item {
+.dropdownRender-yf0s5Y .eleven-os-dropdown-menu .eleven-os-dropdown-menu-item {
   color: rgba(255, 255, 255, 0.85);
   border-radius: 0px;
 }
-.dropdownContent-Ub5u7c .eleven-os-dropdown-menu .eleven-os-dropdown-menu-item:hover {
+.dropdownRender-yf0s5Y .eleven-os-dropdown-menu .eleven-os-dropdown-menu-item:hover {
   background-color: rgba(255, 255, 255, 0.95);
   color: rgba(0, 0, 0, 0.95);
 }
-.dropdownContent-Ub5u7c .eleven-os-dropdown-menu .eleven-os-dropdown-menu-item-group-title {
+.dropdownRender-yf0s5Y .eleven-os-dropdown-menu .eleven-os-dropdown-menu-item-group-title {
   color: rgba(255, 255, 255, 0.45);
 }
-.dropdownContent-Ub5u7c .eleven-os-dropdown-menu .eleven-os-dropdown-menu-submenu-title {
+.dropdownRender-yf0s5Y .eleven-os-dropdown-menu .eleven-os-dropdown-menu-submenu-title {
   color: rgba(255, 255, 255, 0.85);
   padding: 5px 12px;
   border-radius: 0;
@@ -87,15 +82,62 @@
   display: flex;
   align-items: center;
 }
-.dropdownContent-Ub5u7c .eleven-os-dropdown-menu .eleven-os-dropdown-menu-submenu-title .eleven-os-dropdown-menu-submenu-expand-icon .eleven-os-dropdown-menu-submenu-arrow-icon {
+.dropdownRender-yf0s5Y .eleven-os-dropdown-menu .eleven-os-dropdown-menu-submenu-title .eleven-os-dropdown-menu-submenu-expand-icon .eleven-os-dropdown-menu-submenu-arrow-icon {
   color: currentColor;
   opacity: 0.65;
 }
-.dropdownContent-Ub5u7c .eleven-os-dropdown-menu .eleven-os-dropdown-menu-item-group-list {
+.dropdownRender-yf0s5Y .eleven-os-dropdown-menu .eleven-os-dropdown-menu-item-group-list {
   margin: 0;
 }
-.dropdownContent-Ub5u7c .eleven-os-dropdown-menu .eleven-os-dropdown-menu-item-divider {
+.dropdownRender-yf0s5Y .eleven-os-dropdown-menu .eleven-os-dropdown-menu-item-divider {
   background-color: rgba(255, 255, 255, 0.15);
+}
+body > div > .eleven-os-dropdown-menu-dropdownMenuPopup.eleven-os-dropdown-menu-submenu {
+  --bgColor: rgba(0, 0, 0, 0.9);
+  --color: #ffffff;
+  color: var(--color);
+  background-color: var(--bgColor);
+  box-shadow: rgba(26, 26, 26, 0.5) 0px 3px 10px 3px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+body > div > .eleven-os-dropdown-menu-dropdownMenuPopup.eleven-os-dropdown-menu-submenu .eleven-os-dropdown-menu {
+  padding: 0;
+  background: transparent;
+  border-radius: inherit;
+}
+body > div > .eleven-os-dropdown-menu-dropdownMenuPopup.eleven-os-dropdown-menu-submenu .eleven-os-dropdown-menu .eleven-os-dropdown-menu-item {
+  color: rgba(255, 255, 255, 0.85);
+  border-radius: 0px;
+}
+body > div > .eleven-os-dropdown-menu-dropdownMenuPopup.eleven-os-dropdown-menu-submenu .eleven-os-dropdown-menu .eleven-os-dropdown-menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.95);
+  color: rgba(0, 0, 0, 0.95);
+}
+body > div > .eleven-os-dropdown-menu-dropdownMenuPopup.eleven-os-dropdown-menu-submenu .eleven-os-dropdown-menu .eleven-os-dropdown-menu-item-group-title {
+  color: rgba(255, 255, 255, 0.45);
+}
+body > div > .eleven-os-dropdown-menu-dropdownMenuPopup.eleven-os-dropdown-menu-submenu .eleven-os-dropdown-menu .eleven-os-dropdown-menu-submenu-title {
+  color: rgba(255, 255, 255, 0.85);
+  padding: 5px 12px;
+  border-radius: 0;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+}
+body > div > .eleven-os-dropdown-menu-dropdownMenuPopup.eleven-os-dropdown-menu-submenu .eleven-os-dropdown-menu .eleven-os-dropdown-menu-submenu-title .eleven-os-dropdown-menu-submenu-expand-icon .eleven-os-dropdown-menu-submenu-arrow-icon {
+  color: currentColor;
+  opacity: 0.65;
+}
+body > div > .eleven-os-dropdown-menu-dropdownMenuPopup.eleven-os-dropdown-menu-submenu .eleven-os-dropdown-menu .eleven-os-dropdown-menu-item-group-list {
+  margin: 0;
+}
+body > div > .eleven-os-dropdown-menu-dropdownMenuPopup.eleven-os-dropdown-menu-submenu .eleven-os-dropdown-menu .eleven-os-dropdown-menu-item-divider {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.dropdownContent-Ub5u7c {
+  width: 180px;
 }
 
 .batteryButton-mYxOQt {
@@ -201,9 +243,9 @@
   height: 28px;
   width: 100%;
   padding: 0 8px;
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: rgba(26, 26, 26, 0.5) 0px 3px 10px 3px;
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
   display: flex;
   align-items: center;
   z-index: 101;
